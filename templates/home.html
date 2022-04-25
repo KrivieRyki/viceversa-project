@@ -5,10 +5,11 @@
   <title>Title</title>
 </head>
 <body>
+<form action="{% url 'reverse' %}">
 <h1>Vice versa</h1>
-<textarea name="message" rows="20" cols="60"></textarea>
+<textarea name="usertext" rows="20" cols="60"></textarea>
 <br><br>
 <input type="submit" value="Reverse!">
-
+</form>
 </body>
 </html>
